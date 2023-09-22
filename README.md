@@ -16,3 +16,12 @@ npm i -D nodemon dotenv
 }
 ```
 
+### Commit '03. Clients request'
+```
+{
+  clients {
+    id, name, email, phone
+  }
+}
+```
+
