@@ -25,3 +25,19 @@ npm i -D nodemon dotenv
 }
 ```
 
+### Commit '04. Project and projects requests'
+```
+{
+  project(id: 1) {
+    id, name, description, status
+  }
+}
+```
+```
+{   
+  projects {
+    id, name, description, status
+  }
+}
+```
+
