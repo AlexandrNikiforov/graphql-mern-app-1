@@ -53,3 +53,16 @@ mutation {
   }
 }
 ```
+
+### Commit '08. Delete a client from MongoDB'
+
+```
+mutation {
+  deleteClient(id: "paste_id_here") {
+    id
+    name
+    email
+    phone
+  }
+}
+```
