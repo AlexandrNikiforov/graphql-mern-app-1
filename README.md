@@ -66,3 +66,16 @@ mutation {
   }
 }
 ```
+
+### Commit '09. Add a project to a MongoDB'
+
+```
+mutation {
+  addProject(name: "Learn Node.js", description: "Blah", status: new, clientId: "6511734b230621b107d3bc0d") {
+    id
+    name
+    description
+    status
+  }
+}
+```
