@@ -40,3 +40,16 @@ npm i -D nodemon dotenv
 ### Commit '05. Projects and client inside of client and project req'
 
 ### Commit '06. Configure mongoose to fetch data from MongoDB'
+
+### Commit '07. Add a client to MongoDB'
+
+```
+mutation {
+  addClient(name: "Tony Stark", email: "ironman@gmail.com", phone: "955-365-3376") {
+    id
+    name
+    email
+    phone
+  }
+}
+```
