@@ -34,12 +34,9 @@ npm i -D nodemon dotenv
 }
 ```
 ```
-{   
-  projects {
-    id, name, description, status
-  }
-}
+ 
 ```
 
 ### Commit '05. Projects and client inside of client and project req'
 
+### Commit '06. Configure mongoose to fetch data from MongoDB'
