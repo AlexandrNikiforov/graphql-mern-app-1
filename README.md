@@ -79,3 +79,20 @@ mutation {
   }
 }
 ```
+
+### Commit '10. Delete and update a project from a MongoDB'
+```
+mutation {   
+  deleteProject(id: "65118653c9fa7fb9348c018f") {
+    id 
+  }
+}
+```
+
+```
+mutation {   
+  updateProject(id: "65171d0a5367cd612fda33bd", name: "Learn Node.js!!!") {
+    id 
+  }
+}
+```
